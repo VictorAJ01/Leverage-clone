@@ -9,7 +9,7 @@ import Beachball from "../../../assets/components/images/Beachball.jpg";
 
 export const movieCollection = [
   {
-    image: { Women },
+    image: Women,
     title: "Women's Day",
     year: "2022",
     resolution: "HD",
@@ -17,7 +17,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Perfect },
+    image: Perfect,
     title: "The Perfect Match",
     year: "2022",
     resolution: "2K",
@@ -25,7 +25,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Dog },
+    image: Dog,
     title: "The Dog Woof",
     year: "2021",
     resolution: "4K",
@@ -33,7 +33,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Kerala },
+    image: Kerala,
     title: "The Easy Reach",
     year: "2021",
     resolution: "4K",
@@ -41,7 +41,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Cooking },
+    image: Cooking,
     title: "The Cooking",
     year: "2021",
     resolution: "4K",
@@ -49,7 +49,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Hikaru },
+    image: Hikaru,
     title: "The Hikaru",
     year: "2021",
     resolution: "4K",
@@ -57,7 +57,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Life },
+    image: Life,
     title: "Life Quotes",
     year: "2021",
     resolution: "4K",
@@ -65,7 +65,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Beachball },
+    image: Beachball,
     title: "The Beachball",
     year: "2021",
     resolution: "4K",
@@ -73,7 +73,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Dog },
+    image: Dog,
     title: "The Dog Woof",
     year: "2021",
     resolution: "4K",
@@ -81,7 +81,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Perfect },
+    image: Perfect,
     title: "The Perfect Match",
     year: "2022",
     resolution: "2K",
@@ -89,7 +89,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Women },
+    image: Women,
     title: "Women's Day",
     year: "2022",
     resolution: "HD",
@@ -97,7 +97,7 @@ export const movieCollection = [
     rating: "3.5",
   },
   {
-    image: { Dog },
+    image: Dog,
     title: "The Dog Woof",
     year: "2021",
     resolution: "4K",

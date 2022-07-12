@@ -9,6 +9,8 @@ export const Hero = () => {
   return (
     <Box
       backgroundImage={Image1}
+      backgroundSize="cover"
+      backgroundRepeat="no-repeat"
       height={{ base: "550px", md: "830px", lg: "850px" }}
       paddingTop={{ base: "5rem", md: "10%", lg: "12rem" }}
       width="100%"
