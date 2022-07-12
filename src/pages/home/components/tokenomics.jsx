@@ -19,6 +19,7 @@ export const Tokenomics = () => {
         >
           <Heading
             fontWeight="900"
+            fontSize={{ base: "1.6rem", md: "2rem", lg: "2.5rem" }}
             paddingX={{ lg: "15rem" }}
             paddingTop={{ base: "10%", lg: "10%" }}
           >

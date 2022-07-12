@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Logo from "../images/logo.png";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import Logo from "../images/Logo.png";
 import { IoIosWallet } from "react-icons/io";
 
 export const Header = () => {
@@ -12,9 +12,9 @@ export const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto navItem">
             <Nav.Link className="fw-bold text-white" href="#home">
-              $LEGENDtoken
+              $Moviestoken
             </Nav.Link>
             <Nav.Link className="fw-bold text-white" href="#link">
               Tokenomics
@@ -28,10 +28,7 @@ export const Header = () => {
             <Nav.Link className="fw-bold text-white" href="#link">
               Litepaper
             </Nav.Link>
-            <Nav.Link className="fw-bold text-white" href="#link">
-              Complete2Earn
-            </Nav.Link>
-            <NavDropdown
+            {/* <NavDropdown
               className="fw-bold text-white"
               title="Buy Token"
               id="basic-nav-dropdown"
@@ -45,7 +42,7 @@ export const Header = () => {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
             <Button
               className="fw-bold text-white d-flex gap-2"
               variant="outline-warning rounded-pill"
