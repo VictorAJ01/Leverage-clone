@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
-import Logo from "../images/Logo.png";
+import Logo from "../images/logo.png";
 import { IoIosWallet } from "react-icons/io";
 
 export const Header = () => {
