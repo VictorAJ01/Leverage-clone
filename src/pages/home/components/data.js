@@ -1,11 +1,11 @@
-import Women from "../../../assets/components/images/Women.jpg";
-import Perfect from "../../../assets/components/images/The_perfect_match.jpg";
-import Dog from "../../../assets/components/images/Dog_woof.jpg";
-import Kerala from "../../../assets/components/images/Kerala.jpg";
-import Cooking from "../../../assets/components/images/The_cooking.jpg";
-import Hikaru from "../../../assets/components/images/Hikaru.jpg";
-import Life from "../../../assets/components/images/Life_quote.jpg";
-import Beachball from "../../../assets/components/images/Beachball.jpg";
+import Women from "../../../assets/images/Women.jpg";
+import Perfect from "../../../assets/images/The_perfect_match.jpg";
+import Dog from "../../../assets/images/Dog_woof.jpg";
+import Kerala from "../../../assets/images/Kerala.jpg";
+import Cooking from "../../../assets/images/The_cooking.jpg";
+import Hikaru from "../../../assets/images/Hikaru.jpg";
+import Life from "../../../assets/images/Life_quote.jpg";
+import Beachball from "../../../assets/images/Beachball.jpg";
 
 export const movieCollection = [
   {

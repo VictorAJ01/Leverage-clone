@@ -1,8 +1,8 @@
 import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
 import { Container } from "react-bootstrap";
-import BgImage from "../../../assets/components/images/tv_series_bg.jpg";
-import Star2 from "../../../assets/components/images/Star.svg";
+import BgImage from "../../../assets/images/tv_series_bg.jpg";
+import Star2 from "../../../assets/images/Star.svg";
 
 export const Tokenomics = () => {
   return (

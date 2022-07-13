@@ -1,6 +1,6 @@
 import { Box, Heading, Text, Button, Flex } from "@chakra-ui/react";
 import React from "react";
-import Image1 from "../../../assets/components/images/Hero_image.jpg";
+import Image1 from "../../../assets/images/Hero_image.jpg";
 import { Container } from "react-bootstrap";
 import { IoIosWallet } from "react-icons/io";
 import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
