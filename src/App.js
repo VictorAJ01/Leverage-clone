@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import "./App.css";
-import { Header } from "./assets/components/header/header";
+import { Header } from "./components/header/header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Home } from "./pages/home/home";
 

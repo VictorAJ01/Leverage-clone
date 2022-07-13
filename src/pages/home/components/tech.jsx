@@ -1,9 +1,9 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import { Container } from "react-bootstrap";
-import BgImage from "../../../assets/components/images/tv_series_bg.jpg";
-import Player from "../../../assets/components/images/Single Player card.png";
-// import Reflection from "../../../assets/components/images/Single Player card reflection.png";
+import BgImage from "../../../assets/images/tv_series_bg.jpg";
+import Player from "../../../assets/images/Single Player card.png";
+// import Reflection from "../../../assets/images/Single Player card reflection.png";
 
 const sharedstyles = {
   paddingRight: { base: "0", lg: "30%" },

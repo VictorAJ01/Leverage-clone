@@ -1,8 +1,8 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import { Container } from "react-bootstrap";
-import BgImage from "../../../assets/components/images/tv_series_bg.jpg";
-import Star1 from "../../../assets/components/images/Flywheel.png";
+import BgImage from "../../../assets/images/tv_series_bg.jpg";
+import Star1 from "../../../assets/images/Flywheel.png";
 
 export const Section = () => {
   return (

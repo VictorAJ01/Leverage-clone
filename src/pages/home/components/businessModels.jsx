@@ -1,6 +1,6 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
-import BgImage from "../../../assets/components/images/tv_series_bg.jpg";
+import BgImage from "../../../assets/images/tv_series_bg.jpg";
 import { GrFormNextLink } from "react-icons/gr";
 import { Container } from "react-bootstrap";
 

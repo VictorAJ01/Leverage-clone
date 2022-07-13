@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { movieCollection } from "./data";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
-import BgImage from "../../../assets/components/images/tv_series_bg.jpg";
+import BgImage from "../../../assets/images/tv_series_bg.jpg";
 import { BsFillHandThumbsUpFill, BsClock } from "react-icons/bs";
 
 const Collection = () => {
