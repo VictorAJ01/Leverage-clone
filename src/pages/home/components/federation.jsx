@@ -40,7 +40,7 @@ const Federation = () => {
           <Box
             width={{ base: "50%", md: "100%", lg: "100%" }}
             paddingTop={{ base: "7%", md: "5%", lg: "5%" }}
-            paddingBottom="3%"
+            paddingBottom={{ base: "3%", lg: "0" }}
             justifyContent="center"
             display="flex"
           >
@@ -50,6 +50,7 @@ const Federation = () => {
             justifyContents="center"
             textAlign="center"
             gap="10%"
+            // className={{ base: "scroll" }}
             flexWrap={{ base: "wrap", lg: "nowrap" }}
           >
             <Box
@@ -78,7 +79,7 @@ const Federation = () => {
             <Box
               display="flex"
               width={{ base: "100%", lg: "30%" }}
-              flexDirection="column"
+              flexDirection={{ base: "column", lg: "column-reverse" }}
               alignItems="center"
               textAlign="center"
             >
