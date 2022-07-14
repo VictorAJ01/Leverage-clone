@@ -1,7 +1,8 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import BgImage from "../../../assets/images/tv_series_bg.jpg";
-import { GrFormNextLink } from "react-icons/gr";
+// import { GrFormNextLink } from "react-icons/gr";
+import Right from "../../../assets/images/icons8-arrow-48.png";
 import { Container } from "react-bootstrap";
 
 const Business = () => {
@@ -16,24 +17,244 @@ const Business = () => {
         >
           BUSINESS MODELS
         </Heading>
-        <Box display="flex" flexDirection="column" textAlign="center">
-          <Box display="flex" alignItems="center" textAlign="left">
-            <Heading>INITIAL FEDERATION OFFERING</Heading>
+        <Box
+          display="flex"
+          flexDirection="column"
+          textAlign="center"
+          paddingBottom={{ lg: "2%" }}
+          fontWeight="700"
+        >
+          <Box
+            display="flex"
+            flexDirection={{ base: "column", md: "column", lg: "row" }}
+            alignItems="center"
+            textAlign={{ base: "center", md: "center", lg: "left" }}
+            justifyContent="space-between"
+          >
+            <Box>
+              <Heading
+                fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
+                paddingBottom={{ base: "7%", md: "5%", lg: "0" }}
+              >
+                INITIAL FEDERATION OFFERING
+              </Heading>
+            </Box>
             <Box
-              bgColor="#333"
+              className="Background"
               fontSize={{ base: "1rem", md: "1.5rem", lg: "1.3rem" }}
+              width={{ base: "20rem", md: "30rem", lg: "65rem" }}
+              height={{ base: "280px", md: "400px", lg: "140px" }}
+              justifyContent={{ base: "center", md: "center", lg: "center" }}
               display="flex"
+              flexDirection={{ base: "column", md: "column", lg: "row" }}
+              textAlign="center"
               alignItems="center"
-              className="box"
             >
-              <Text>All stakeholders involved</Text>
-              <Box fontSize={{ lg: "7rem" }}>
-                <GrFormNextLink className="icon" />
+              <Box width={{ base: "100%", lg: "40%" }}>
+                <Text>All stakeholders involved</Text>
               </Box>
-              <Text>
-                Launchpad of utility tokens for federations to empower & sustain
-                the community
-              </Text>
+              <Box
+                width={{ lg: "15%" }}
+                transform={{ base: "rotate(90deg)", lg: "none" }}
+                paddingY={{ base: "7%", lg: "0" }}
+              >
+                <img src={Right} alt="right arrow" />
+              </Box>
+              <Box width={{ base: "90%", lg: "40%" }}>
+                <Text>
+                  Launchpad of utility tokens for federations to empower &
+                  sustain the community
+                </Text>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          display="flex"
+          flexDirection="column"
+          textAlign="center"
+          paddingBottom={{ lg: "2%" }}
+          fontWeight="700"
+        >
+          <Box
+            display="flex"
+            flexDirection={{ base: "column", md: "column", lg: "row" }}
+            alignItems="center"
+            textAlign={{ base: "center", md: "center", lg: "left" }}
+            justifyContent="space-between"
+          >
+            <Heading
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
+              paddingBottom={{ base: "7%", md: "5%", lg: "0" }}
+              paddingX={{ base: "0", md: "5rem", lg: "0" }}
+            >
+              BASE CURRENCY FOR THE TRADING PLATFORM
+            </Heading>
+            <Box
+              className="Background"
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.3rem" }}
+              height={{ base: "280px", md: "400px", lg: "140px" }}
+              justifyContent={{ base: "center", md: "center", lg: "center" }}
+              width={{ base: "20rem", md: "30rem", lg: "100rem" }}
+              display="flex"
+              flexDirection={{ base: "column", md: "column", lg: "row" }}
+              textAlign="center"
+              alignItems="center"
+            >
+              <Box width={{ base: "100%", lg: "40%" }}>
+                <Text>$LEGEND and federation tokens</Text>
+              </Box>
+              <Box
+                width={{ lg: "15%" }}
+                transform={{ base: "rotate(90deg)", lg: "none" }}
+                paddingY={{ base: "7%", lg: "0" }}
+              >
+                <img src={Right} alt="right arrow" />
+              </Box>
+              <Box width={{ base: "90%", lg: "40%" }}>
+                <Text>Trading platform</Text>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          display="flex"
+          flexDirection="column"
+          textAlign="center"
+          paddingBottom={{ lg: "2%" }}
+          fontWeight="700"
+        >
+          <Box
+            display="flex"
+            flexDirection={{ base: "column", md: "column", lg: "row" }}
+            alignItems="center"
+            textAlign={{ base: "center", md: "center", lg: "left" }}
+            justifyContent="space-between"
+          >
+            <Heading
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
+              paddingBottom={{ base: "7%", md: "5%", lg: "0" }}
+            >
+              PLAY2EARN
+            </Heading>
+            <Box
+              className="Background"
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.3rem" }}
+              width={{ base: "20rem", md: "30rem", lg: "59.5rem" }}
+              height={{ base: "280px", md: "400px", lg: "140px" }}
+              justifyContent={{ base: "center", md: "center", lg: "center" }}
+              display="flex"
+              flexDirection={{ base: "column", md: "column", lg: "row" }}
+              textAlign="center"
+              alignItems="center"
+            >
+              <Box width={{ base: "100%", lg: "40%" }}>
+                <Text>Real life matches and events</Text>
+              </Box>
+              <Box
+                width={{ lg: "15%" }}
+                transform={{ base: "rotate(90deg)", lg: "none" }}
+                paddingY={{ base: "7%", lg: "0" }}
+              >
+                <img src={Right} alt="right arrow" />
+              </Box>
+              <Box width={{ base: "90%", lg: "40%" }}>
+                <Text>$LEGEND and NFTs rewards to athletes</Text>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          display="flex"
+          flexDirection="column"
+          textAlign="center"
+          paddingBottom={{ lg: "2%" }}
+          fontWeight="700"
+        >
+          <Box
+            display="flex"
+            flexDirection={{ base: "column", md: "column", lg: "row" }}
+            alignItems="center"
+            textAlign={{ base: "center", md: "center", lg: "left" }}
+            justifyContent="space-between"
+          >
+            <Heading
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
+              paddingBottom={{ base: "7%", md: "5%", lg: "0" }}
+            >
+              SPONSORSHIPS
+            </Heading>
+            <Box
+              className="Background"
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.3rem" }}
+              width={{ base: "20rem", md: "30rem", lg: "59.5rem" }}
+              height={{ base: "280px", md: "400px", lg: "140px" }}
+              justifyContent={{ base: "center", md: "center", lg: "center" }}
+              display="flex"
+              flexDirection={{ base: "column", md: "column", lg: "row" }}
+              textAlign="center"
+              alignItems="center"
+            >
+              <Box width={{ base: "100%", lg: "40%" }}>
+                <Text>Brand exposure</Text>
+              </Box>
+              <Box
+                width={{ lg: "15%" }}
+                transform={{ base: "rotate(90deg)", lg: "none" }}
+                paddingY={{ base: "7%", lg: "0" }}
+              >
+                <img src={Right} alt="right arrow" />
+              </Box>
+              <Box width={{ base: "90%", lg: "40%" }}>
+                <Text>Brands pay $LEGENDto the athletes</Text>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          display="flex"
+          flexDirection="column"
+          textAlign="center"
+          paddingBottom={{ lg: "2%" }}
+          fontWeight="700"
+        >
+          <Box
+            display="flex"
+            flexDirection={{ base: "column", md: "column", lg: "row" }}
+            alignItems="center"
+            textAlign={{ base: "center", md: "center", lg: "left" }}
+            justifyContent="space-between"
+          >
+            <Heading
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
+              paddingBottom={{ base: "7%", md: "5%", lg: "0" }}
+            >
+              PAYMENTS
+            </Heading>
+            <Box
+              className="Background"
+              fontSize={{ base: "1rem", md: "1.5rem", lg: "1.3rem" }}
+              width={{ base: "20rem", md: "30rem", lg: "59.5rem" }}
+              height={{ base: "280px", md: "400px", lg: "140px" }}
+              justifyContent={{ base: "center", md: "center", lg: "center" }}
+              display="flex"
+              flexDirection={{ base: "column", md: "column", lg: "row" }}
+              textAlign="center"
+              alignItems="center"
+            >
+              <Box width={{ base: "100%", lg: "40%" }}>
+                <Text>Internal payments</Text>
+              </Box>
+              <Box
+                width={{ lg: "15%" }}
+                transform={{ base: "rotate(90deg)", lg: "none" }}
+                paddingY={{ base: "7%", lg: "0" }}
+              >
+                <img src={Right} alt="right arrow" />
+              </Box>
+              <Box width={{ base: "90%", lg: "40%" }}>
+                <Text>Shift to crypto payments</Text>
+              </Box>
             </Box>
           </Box>
         </Box>
