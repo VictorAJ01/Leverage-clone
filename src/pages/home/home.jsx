@@ -8,6 +8,7 @@ import Collection from "./components/movieCollection";
 import Sales from "./components/privateSale";
 import { Techology } from "./components/tech";
 import { Tokenomics } from "./components/tokenomics";
+import Utility from "./components/utility";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <Hero />
       <Collection />
       <Federation />
+      <Utility />
       <Business />
       <Leverade />
       <Techology />
