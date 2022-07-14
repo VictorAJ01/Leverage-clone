@@ -51,12 +51,16 @@ export const Hero = () => {
               borderRadius="50px"
               paddingY={{ base: "6%", md: "5%", lg: "4%" }}
               paddingX={{ base: "8%", md: "20%", lg: "4%" }}
-              fontSize="1.4rem"
+              fontSize={{ base: "1.4rem", lg: "1.5rem" }}
             >
               <IoIosWallet fontSize="2rem" />
               Connect Wallet
             </Button>
-            <Flex color="#ffcd00" fontSize="2rem" gap="25%">
+            <Flex
+              color="#ffcd00"
+              fontSize={{ base: "1.8rem", lg: "2.3rem" }}
+              gap={{ base: "15%", lg: "25%" }}
+            >
               <Box className="gradient" borderRadius="50%">
                 <FaTwitter />
               </Box>
@@ -74,19 +78,19 @@ export const Hero = () => {
           gap={{ base: "5.5%", lg: "3.5%" }}
         >
           <Box textAlign="left">
-            <Heading fontSize={{ base: "1.4rem", md: "2.7rem", lg: "2.4rem" }}>
+            <Heading fontSize={{ base: "1.3rem", md: "2.7rem", lg: "2.4rem" }}>
               47,233,392
             </Heading>
             <Text>MOVIES</Text>
           </Box>
           <Box textAlign="left">
-            <Heading fontSize={{ base: "1.4rem", md: "2.7rem", lg: "2.4rem" }}>
+            <Heading fontSize={{ base: "1.3rem", md: "2.7rem", lg: "2.4rem" }}>
               11,109,652
             </Heading>
             <Text>ACTORS</Text>
           </Box>
           <Box textAlign="left">
-            <Heading fontSize={{ base: "1.4rem", md: "2.7rem", lg: "2.4rem" }}>
+            <Heading fontSize={{ base: "1.3rem", md: "2.7rem", lg: "2.4rem" }}>
               5,768,825
             </Heading>
             <Text>SEASONS</Text>
