@@ -22,7 +22,7 @@ export const Hero = () => {
           width={{ base: "100%", lg: "60%" }}
           display="flex"
           flexDirection="column"
-          textAlign={{ base: "center", lg: "left" }}
+          textAlign={{ base: "left", lg: "left" }}
         >
           <Heading fontSize={{ base: "1.5rem", md: "2rem" }}>
             THE FIRST MOVIE
@@ -58,7 +58,7 @@ export const Hero = () => {
             </Button>
             <Flex
               color="#ffcd00"
-              fontSize={{ base: "1.8rem", lg: "2.3rem" }}
+              fontSize={{ base: "1.8rem", md: "3rem", lg: "2.3rem" }}
               gap={{ base: "15%", lg: "25%" }}
             >
               <Box className="gradient" borderRadius="50%">

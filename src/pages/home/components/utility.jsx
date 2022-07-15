@@ -13,14 +13,19 @@ import Payments from "../../../assets/images/pic7.svg";
 import Athletes from "../../../assets/images/pic8.svg";
 
 const sharestyles = {
-  width: { base: "18%", lg: "10%" },
+  width: { base: "18%", lg: "8%" },
   gap: { base: "3%", lg: "2%" },
   paddingBottom: { base: "3%", lg: "3%" },
 };
 
 const Utility = () => {
   return (
-    <Box bgImage={BgImage} color="#fff">
+    <Box
+      bgImage={BgImage}
+      color="#fff"
+      paddingTop={{ base: "10%", lg: "7%" }}
+      paddingBottom={{ base: "10%", lg: "7%" }}
+    >
       <Container>
         <Box display="flex" flexDirection="column" alignItems="center">
           <Heading
@@ -59,8 +64,8 @@ const Utility = () => {
                 community & stakeholders
               </Text>
               <Box
-                fontSize={{ base: "1rem", md: "1rem", lg: "1.5rem" }}
-                fontWeight={{ base: "700", lg: "900" }}
+                fontSize={{ base: "1rem", md: "1rem", lg: "1.3rem" }}
+                fontWeight={{ base: "700", lg: "400" }}
               >
                 <Flex
                   alignItems="center"
