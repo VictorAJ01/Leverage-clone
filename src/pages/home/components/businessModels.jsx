@@ -7,7 +7,12 @@ import { Container } from "react-bootstrap";
 
 const Business = () => {
   return (
-    <Box bgImage={BgImage} color="#fff" paddingTop={{ base: "15%", lg: "7%" }}>
+    <Box
+      bgImage={BgImage}
+      color="#fff"
+      paddingTop={{ base: "15%", lg: "7%" }}
+      paddingBottom={{ base: "10%", lg: "7%" }}
+    >
       <Container>
         <Heading
           textAlign="center"
@@ -141,7 +146,7 @@ const Business = () => {
               <Box width={{ base: "100%", lg: "30%" }}>
                 <Heading
                   fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
-                  paddingBottom={{ base: "14.5%", md: "5%", lg: "0" }}
+                  paddingBottom={{ base: "13.5%", md: "5%", lg: "0" }}
                 >
                   PLAY2EARN
                 </Heading>
@@ -190,7 +195,7 @@ const Business = () => {
               <Box width={{ base: "100%", lg: "30%" }}>
                 <Heading
                   fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
-                  paddingBottom={{ base: "15%", md: "5%", lg: "0" }}
+                  paddingBottom={{ base: "14%", md: "5%", lg: "0" }}
                 >
                   SPONSORSHIPS
                 </Heading>
@@ -239,7 +244,7 @@ const Business = () => {
               <Box width={{ base: "100%", lg: "30%" }}>
                 <Heading
                   fontSize={{ base: "1rem", md: "1.5rem", lg: "1.5rem" }}
-                  paddingBottom={{ base: "15%", md: "5%", lg: "0" }}
+                  paddingBottom={{ base: "14%", md: "5%", lg: "0" }}
                 >
                   PAYMENTS
                 </Heading>
